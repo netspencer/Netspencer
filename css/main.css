@@ -82,10 +82,16 @@ body{min-width:960px;}
 body{font-family:"Helvetica Neue",Helvetica,sans-serif;background:url("../images/ios-texture-light.png");}
 div.img_frame img{max-width:100%;}
 section#top{position:relative;z-index:100;-webkit-box-shadow:#333333 1px 1px 5px;-moz-box-shadow:#333333 1px 1px 5px;box-shadow:#333333 1px 1px 5px;width:100%;background-image:url("../images/ios-texture.png") !important;}section#top header{padding:10px 0;}section#top header h1{color:#fff;font-size:42px;font-family:"Rokkitt";font-weight:normal;}
-section#page{position:relative;z-index:2;background:#FFF;padding:20px 0;}section#page div.profile-sidebar div.profile-pic{margin-bottom:10px;}
-section#page div.profile-sidebar div.twitter-follow h4{color:#186487;font-size:18px;font-weight:normal;line-height:2;}
-section#page div.mini-about{border-bottom:5px #EEE solid;padding-bottom:10px;margin-bottom:20px;font-weight:200;font-size:24px;line-height:1.8;}section#page div.mini-about span.age{color:#219C11;font-weight:500;}
-section#page div.mini-about span.questions{color:#C80000;font-weight:500;}
-section#page ul.sections li{margin:0 10px;opacity:0.5;list-style:none;float:left;text-align:center;}section#page ul.sections li img{width:50px;}
-section#page ul.sections li h4{font-weight:400;font-size:16px;padding:10px;}
-section#page ul.sections li:hover{opacity:1;}
+section#page{position:relative;z-index:2;background:#FFF;padding:20px 0;}section#page section#top-info div.profile-sidebar div.profile-pic{margin-bottom:10px;}
+section#page section#top-info div.profile-sidebar div.twitter-follow h4{color:#186487;font-size:18px;font-weight:normal;line-height:2;}
+section#page section#top-info div.mini-about{border-bottom:5px #EEE solid;padding-bottom:10px;margin-bottom:20px;font-weight:200;font-size:24px;line-height:1.8;}section#page section#top-info div.mini-about span.age{color:#219C11;font-weight:500;}
+section#page section#top-info div.mini-about span.questions{color:#C80000;font-weight:500;}
+section#page section#top-info ul.sections li{margin:0 10px;opacity:0.5;list-style:none;float:left;text-align:center;-webkit-transition:opacity 0.4s linear;}section#page section#top-info ul.sections li img{width:50px;}
+section#page section#top-info ul.sections li.blog img{margin-bottom:0px;}
+section#page section#top-info ul.sections li.inspiration img{margin:6.5px 0;}
+section#page section#top-info ul.sections li.photography img{margin:11px 0;}
+section#page section#top-info ul.sections li.favorites img{margin:3.5px 0;}
+section#page section#top-info ul.sections li.tweets img{margin:14.5px 0;}
+section#page section#top-info ul.sections li.contact img{margin:12px 0;}
+section#page section#top-info ul.sections li h4{font-weight:400;font-size:16px;padding:10px;}
+section#page section#top-info ul.sections li:hover{opacity:1;}
