@@ -81,7 +81,7 @@ body{min-width:960px;}
 .clearfix{zoom:1;}
 body{font-family:"Helvetica Neue",Helvetica,sans-serif;background:url("../images/ios-texture-light.png");}
 div.img_frame img{max-width:100%;}
-section#top{position:relative;z-index:100;-webkit-box-shadow:#333333 1px 1px 5px;-moz-box-shadow:#333333 1px 1px 5px;box-shadow:#333333 1px 1px 5px;width:100%;background-image:url("../images/ios-texture.png") !important;}section#top header{padding:10px 0;}section#top header h1{color:#fff;font-size:42px;font-family:"Rokkitt";font-weight:normal;}
+section#top{position:relative;z-index:100;-webkit-box-shadow:#333333 1px 1px 5px;-moz-box-shadow:#333333 1px 1px 5px;box-shadow:#333333 1px 1px 5px;width:100%;background:#808080;background:-webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.2)), to(rgba(0, 0, 0, 0.4)));background:-moz-linear-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.2)), to(rgba(0, 0, 0, 0.4)));background-color:#004FA0 !important;text-shadow:0px -1px 0px #374683;}section#top header{padding:10px 0;}section#top header h1{color:#fff;font-size:42px;font-family:"Rokkitt";font-weight:normal;}
 section#page{position:relative;z-index:2;background:#FFF;padding:20px 0;}section#page section#top-info div.profile-sidebar div.profile-pic{margin-bottom:10px;}
 section#page section#top-info div.profile-sidebar div.twitter-follow h4{color:#186487;font-size:18px;font-weight:normal;line-height:2;}
 section#page section#top-info div.mini-about{border-bottom:5px #EEE solid;padding-bottom:10px;margin-bottom:20px;font-weight:200;font-size:24px;line-height:1.8;}section#page section#top-info div.mini-about span.age{color:#219C11;font-weight:500;}
